@@ -70,7 +70,6 @@ pca_data <- pca_scores %>%
 
 # I have my panel data for net_migration, ed_exp, gdp_per_cap, gdp_per_cap_oecd and population in an excel file named final thesis.
 library(readxl)
-# Specify the path to your Excel file
 file_path <- "final thesis.xlsx"
 panel_data <- read_excel(file_path)
 View(panel_data) # Now you can View the panel data 
